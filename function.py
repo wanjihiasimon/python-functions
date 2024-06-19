@@ -1,5 +1,5 @@
 # 1. Reverse the digits of an integer
-def reverse_integer(n):
+def reverse_int(n):
     sign = -1 if n < 0 else 1
     n = abs(n)
     reversed_n = int(str(n)[::-1])
@@ -34,7 +34,7 @@ def has_consecutive_threes(lst):
             return True
     return False
 
-# 6. Function to reverse the order of words in a sentence like Master Yoda
+# 6. Function to reverse the order of words in a sentence Master Yoda
 def yoda_speak(sentence):
     words = sentence.split()
     reversed_words = words[::-1]
